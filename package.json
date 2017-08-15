@@ -1,0 +1,19 @@
+{
+  "name": "RevStackCore.Extensions.WebPush.Entity",
+  "version": "1.0.0",
+  "description": "Push notification entities",
+  "main": "RevStackCore.Extensions.WebPush.Entity.sln",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/RevStackCore/Extensions.WebPush.Entity.git"
+  },
+  "author": "S. Francis",
+  "license": "MIT",
+  "bugs": {
+		"url": "https://github.com/RevStackCore/Extensions.WebPush.Entity/issues"
+  },
+	"homepage": "https://github.com/RevStackCore/Extensions.WebPush.Entity"
+}

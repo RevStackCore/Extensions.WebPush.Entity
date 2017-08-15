@@ -1,0 +1,26 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard1.6</TargetFramework>
+    <PackageId>RevStackCore.Extensions.WebPush.Entity</PackageId>
+    <PackageVersion>1.0.0</PackageVersion>
+    <Authors>S. Francis</Authors>
+    <Description>Push notification entities</Description>
+    <PackageRequireLicenseAcceptance>false</PackageRequireLicenseAcceptance>
+    <PackageReleaseNotes>Net Standard 1.5 release</PackageReleaseNotes>
+    <Copyright>Copyright 2017</Copyright>
+    <PackageTags>RevStackCore Push Notification</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Enum\" />
+    <Folder Include="Extensions\" />
+    <Folder Include="Util\" />
+    <Folder Include="Entity\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="RevStackCore.Pattern" Version="1.0.5" />
+    <PackageReference Include="RevStackCore.Extensions.GeoLocation" Version="1.0.0" />
+    <PackageReference Include="RevStackCore.Cryptography" Version="1.0.2" />
+  </ItemGroup>
+</Project>
